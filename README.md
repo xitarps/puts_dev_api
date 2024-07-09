@@ -1,24 +1,24 @@
-# README
+## PUTS DEV - API
+Puts dev, Querendo dar os primeiros passo com Api no Rails?
+Aqui vamos desenvolver de forma "rústica" uma api
+para entendermos bem como funcianam as coisas quando se trata de api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<hr>
+Api app/Rails (Rails Guides):
+https://guides.rubyonrails.org/api_app.html
 
-Things you may want to cover:
 
-* Ruby version
+Routing/Rotas (Rails Guides):
+https://guides.rubyonrails.org/routing.html
 
-* System dependencies
 
-* Configuration
+RSpec Rails:
+https://github.com/rspec/rspec-rails
 
-* Database creation
 
-* Database initialization
+Rails Status codes:
+http://www.railsstatuscodes.com/
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Action Controller API:
+https://api.rubyonrails.org/classes/ActionController/API.html
