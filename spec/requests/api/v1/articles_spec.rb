@@ -12,7 +12,8 @@ RSpec.describe 'Articles' do
 
     it 'responds with correct persisted article json' do
       get '/api/v1/articles.json'
-
+      expect(json_to_hash(response.body)[:data].first).not_to have_key(:created_at)
+      expect(json_to_hash(response.body)[:data].first).not_to have_key(:updated_at)
       expect(response.body).to include('art 2')
       expect(response.body).to include('conteudo do art 2')
     end
