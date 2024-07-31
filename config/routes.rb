@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  # devise_for :users
 
   namespace :api, constraints: ->(req){ %w[json].include? req.format } do
     namespace :v1 do

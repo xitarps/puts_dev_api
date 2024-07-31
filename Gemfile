@@ -44,6 +44,9 @@ gem "bootsnap", require: false
 # CORS - https://github.com/cyu/rack-cors
 gem 'rack-cors'
 
+# Authentication - https://github.com/heartcombo/devise
+gem "devise", "~> 4.9"
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
@@ -65,4 +68,3 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
-

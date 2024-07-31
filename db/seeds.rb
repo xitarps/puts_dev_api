@@ -15,3 +15,5 @@ articles = [
 ]
 
 Article.create(articles)
+
+User.first_or_create(email: 'x@x.com', password: '123456')
