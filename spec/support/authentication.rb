@@ -6,4 +6,10 @@ module Authentication
         @user.email,@user.password)
     }
   end
+
+  def sign_in(user)
+    user.renew_session!
+    session = { session: user.session }
+    allow_any_instance_of(Api::V1::ApplicationController).to receive(:session).and_return(session)
+  end
 end
